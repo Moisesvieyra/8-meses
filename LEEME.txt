@@ -1,0 +1,31 @@
+PARA KIMBERLY ♡ — PRIMERA PARTE
+=================================
+
+CÓMO ABRIRLO
+1. Extrae el ZIP.
+2. Abre index.html en Chrome, Edge o cualquier navegador moderno.
+3. Escribe Kimberly en el campo de contraseña y pulsa «Abrir mi corazón».
+4. Mira cómo llega la llave, gira y abre el candado.
+5. Después se muestra la pantalla de los ocho meses.
+
+ARCHIVOS
+- index.html: estructura de la página
+- styles.css: estilos, corazón, candado y animaciones
+- app.js: validación de contraseña, animación y cartas de ejemplo
+
+PERSONALIZACIÓN
+- La contraseña está al principio de app.js: PALABRA_SECRETA.
+- Las ocho letras y sus cartas de ejemplo están en el arreglo «chapters» de app.js.
+- Por ahora solamente la K incluye una carta inicial; las otras son borradores.
+- Más adelante podemos integrar tus fotos, sus chats y la historia real.
+
+IMPORTANTE SOBRE LA SEGURIDAD
+Este candado es una experiencia romántica, NO un sistema de autenticación seguro.
+La contraseña está en JavaScript y cualquier persona puede verla inspeccionando
+el código. No subas conversaciones privadas o fotos sensibles a una web pública
+sin aplicar acceso REAL mediante un servidor o una plataforma de autenticación.
+
+El proyecto funciona sin internet, aunque usa fuentes de Google cuando está
+conectado. Si no hay conexión, utilizará fuentes alternativas del dispositivo.
+
+Hecho para celebrar ocho meses de Moisés y Kimberly ♡
