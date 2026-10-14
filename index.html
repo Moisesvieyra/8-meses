@@ -782,7 +782,7 @@ form.addEventListener('submit', async event => {
   event.preventDefault();
   if(isUnlocking) return;
   if(normalize(input.value) !== SECRET) {
-    gateMessage('Ups… esa llavecita no abre mi corazón. Prueba con el nombre de mi persona favorita ♡', 'error');
+    gateMessage('La respuesta no está escrita aquí, pero sí en cada latido de mi corazón. ♡. ', 'error');
     input.setAttribute('aria-invalid','true');
     gate.classList.remove('is-shaking'); void gate.offsetWidth; gate.classList.add('is-shaking');
     input.focus(); return;
@@ -801,7 +801,7 @@ $('#back-to-lock').addEventListener('click',()=>{
   story.hidden = true; gate.hidden = false; gate.classList.remove('is-leaving','is-shaking');
   heartScene.classList.remove('is-unlocking','is-unlocked'); isUnlocking = false;
   input.value=''; input.disabled=false; gateButton.disabled=false;togglePassword.disabled=false;
-  gateButton.querySelector('span').textContent='Abrir mi corazón';gateMessage('Pista: tiene ocho letras y empieza con K ♡');
+  gateButton.querySelector('span').textContent='Abrir mi corazón';gateMessage('“No es una fecha, ni un lugar, ni un recuerdo… es la razón por la que todos ellos son especiales. ♡”');
   document.title='Para Kimberly ♡ | 8 meses';window.scrollTo(0,0);input.focus({preventScroll:true});
 });
 
